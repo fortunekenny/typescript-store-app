@@ -1,11 +1,15 @@
+import { Header } from "@/components";
+import Navbar from "@/components/Navbar";
 import { Outlet } from "react-router-dom";
 
 const HomeLayout = () => {
   return (
     <>
-      <header>header</header>
-      <nav>navbar</nav>
+      <Header/>
+      <Navbar/>
+      <div className="align-element">
       <Outlet />
+      </div>
     </>
   );
 };
