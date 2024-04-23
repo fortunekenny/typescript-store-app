@@ -11,8 +11,8 @@ const url = "/products?featured=true";
  
  function Landing() {
 
-  const result = useLoaderData() as ProductsResponse;
-  console.log(result);
+  // const result = useLoaderData() as ProductsResponse;
+  // console.log(result);
 
     return (
       <>

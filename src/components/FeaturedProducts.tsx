@@ -1,6 +1,13 @@
-function FeaturedProducts() {
+import ProductsGrid from "./ProductsGrid";
+import SectionTitle from "./SectionTitle";
+
+
+const FeaturedProducts = () => {
   return (
-    <div>FeaturedProducts</div>
-  )
-}
-export default FeaturedProducts
+    <section className="pt-24 ">
+      <SectionTitle text="featured products" />
+      <ProductsGrid />
+    </section>
+  );
+};
+export default FeaturedProducts;
