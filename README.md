@@ -2149,6 +2149,10 @@ export default ComplexPaginationContainer;
 
 ## SingleProduct Type
 
+- create component/SelectProductColor.tsx
+  component/SelectProductAmount.tsx
+- setup export
+
 - utils/types.ts
 
 ```ts
