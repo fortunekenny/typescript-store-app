@@ -3325,6 +3325,7 @@ function Cart() {
   const numItemsInCart = useAppSelector(
     (state) => state.cartState.numItemsInCart
   );
+
   if (numItemsInCart === 0) {
     return <SectionTitle text="Empty cart" />;
   }
