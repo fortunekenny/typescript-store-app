@@ -34,6 +34,8 @@ export const action =
       cartItems,
       numItemsInCart,
     };
+
+    
     try {
       await customFetch.post(
         "/orders",
@@ -54,7 +56,7 @@ export const action =
     }
   };
 
-  
+
 const CheckoutForm = () => {
   return (
     <Form method="POST" className="flex flex-col gap-y-4">
